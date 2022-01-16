@@ -1,0 +1,129 @@
+ /* media quaary */
+
+ @media (max-width:688px)
+ 
+ {
+     .container{
+         width: 90%;
+         margin: 0;
+     }   
+.header-section{
+    margin-bottom: 20px;
+    margin: 0;
+}
+ 
+.navbar{
+         width: 100%;
+     }
+
+.nav-button button{
+    width: 70px;
+    height: 44px;
+}
+.header{
+    width: 80%;
+    padding: 0;
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+    margin-left: 0;
+ }
+ .header-name {
+    font-size: 20px;
+    color: #fff;
+}
+.header-img .ball{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 60%;
+    left: 60px;
+}
+.header-img .football-player{
+    width: 200px;
+    height: 130px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.watch{
+    width: 103px;
+    height: 34px;
+    margin-top: 10px;
+    background: #E02C6D;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #fff;
+    
+}
+
+
+ .players{
+ grid-template-columns: 1fr;
+ padding: 0;
+ margin-left:30px;
+  
+}
+.player{
+    width: 100%;
+    padding: 0;
+}
+.player-name{
+    line-height: 50px;
+    font-size: 20px;
+}
+.player-info{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+ .highlite{ 
+     grid-template-columns: 1fr;
+}
+.highlite-img img{
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 100%;
+        height: 430px;
+    
+}
+.highlite-titel{
+    width: 80%;
+}
+.highlite-name{
+    font-size: 18px;
+    width: 80%;
+
+}
+.highlite-info{
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 24px;
+}
+.footers{
+    width: 100%;
+}
+ 
+ .footer img{
+     width: 100%;
+ }
+ .footer .icon{
+    font-size: 25px;
+     margin-left: 20px;
+ }
+ .fab{
+    margin-right: 10px;
+    background-color: #969BAB;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color:#6C6C6C;
+    padding: 10px;
+}
+.copyright h3{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    
+}
+ }
